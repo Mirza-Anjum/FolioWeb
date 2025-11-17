@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4⃣ FolioWeb🗂️</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <h1>Full Project Implementation</h1>
+        <nav>
+          <button class="tab" data-target="portfolio">Portfolio</button>
+          <button class="tab" data-target="todo">To‑Do / Notes</button>
+          <button class="tab" data-target="products">Product Listing</button>
+        </nav>
+      </header>
+
+      <main class="grid">
+        <section id="main-area" class="card">
+          <!-- Content injected by JS to keep single-file and multi-page feel -->
+        </section>
+
+        <aside class="card">
+          <div class="row"><strong>Project Summary</strong></div>
+          <p class="muted">
+            Three ready-to-run front-end projects in one file. You can extract
+            each section into separate files if you want.
+          </p>
+          <hr
+            style="
+              border: 0;
+              border-top: 1px solid rgba(255, 255, 255, 0.03);
+              margin: 12px 0;
+            "
+          />
+          <div class="muted">How to use</div>
+          <ol class="muted">
+            <li>
+              Open this file in your browser (double-click or host with a static
+              server).
+            </li>
+            <li>Use the top tabs to move between projects.</li>
+            <li>
+              Edit content below each demo or copy code into separate files for
+              deployment.
+            </li>
+          </ol>
+          <hr
+            style="
+              border: 0;
+              border-top: 1px solid rgba(255, 255, 255, 0.03);
+              margin: 12px 0;
+            "
+          />
+          <div class="muted">Notes</div>
+          <ul class="muted">
+            <li>
+              To-Do uses <code>localStorage</code> key <code>fp_todos_v1</code>.
+            </li>
+            <li>Products are demo data — replace with your API if needed.</li>
+          </ul>
+        </aside>
+      </main>
+
+      <footer>
+        Built with plain HTML, CSS and JavaScript • Responsive • LocalStorage
+        for persistence
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
